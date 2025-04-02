@@ -23,14 +23,14 @@ export default {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
-				background: 'hsl(var(--background))',
-				foreground: 'hsl(var(--foreground))',
+				background: 'pink',
+				foreground: '#444',
 				primary: {
-					DEFAULT: 'hsl(var(--primary))',
+					DEFAULT: '#444',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {
-					DEFAULT: 'hsl(var(--secondary))',
+					DEFAULT: '#A94064',
 					foreground: 'hsl(var(--secondary-foreground))'
 				},
 				destructive: {
