@@ -21,23 +21,25 @@ const About = () => {
   const bioParagraphs = personal.fullBio.split("\n\n");
 
   return (
-    <section id="about" className="bg-white">
-      <div className="container mx-auto">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold">Sobre Mí</h2>
-          <div className="w-20 h-1 bg-secondary mx-auto mt-4 mb-6"></div>
-        </div>
+  <section id="about" className="bg-white">
+    <div className="container mx-auto">
+      <div className="text-center mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold">Sobre Mí</h2>
+        <div className="w-20 h-1 bg-secondary mx-auto mt-4 mb-6"></div>
+      </div>
 
-        <div className="flex flex-col lg:flex-row gap-10 items-center">
-          <div className="lg:w-1/3 flex justify-center">
-            <div className="relative w-64 h-64 lg:w-80 lg:h-96 rounded-xl overflow-hidden shadow-xl">
-              <img
-                src={personal.avatarUrl}
-                alt={personal.name}
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
+      <div className="flex flex-col lg:flex-row gap-10 items-center">
+        <div className="lg:w-1/3 flex justify-center">
+    
+        <div className="relative w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl animate-fade-in">
+          <img
+            src={personal.avatarUrl}
+            alt={personal.name}
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+      
 
           <div className="lg:w-2/3 space-y-4 animate-slide-in">
             {bioParagraphs.map((paragraph, index) => (
