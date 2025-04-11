@@ -1,10 +1,10 @@
 # Portafolio Web Profesional
 
-Un portafolio profesional de una sola página (One Page) orientado al sector tecnológico, construido con React y diseñado para mostrar tu experiencia, proyectos y datos de contacto de forma elegante y dinámica.
+Este portafolio fue construido con React y diseñado para condensar  la experiencia, proyectos y datos de contacto de forma elegante y dinámica, obtenidos en el curso de especialización Front End.
 
 ## Descripción
 
-Este proyecto es un portafolio web personal responsivo que carga dinámicamente toda la información desde archivos JSON. Está diseñado para desarrolladores y profesionales del sector tecnológico que desean mostrar su trabajo de forma profesional y personalizable sin necesidad de modificar código fuente.
+En este proyecto, el contenido se carga dinámicamente a través de archivos JSON. Está diseñado para mostrar el trabajo de forma profesional.
 
 ![Web](public/web.jpeg)
 
@@ -23,9 +23,6 @@ Este proyecto es un portafolio web personal responsivo que carga dinámicamente 
 - [Tailwind CSS](https://tailwindcss.com/) - Framework CSS de utilidad para el diseño
 - [shadcn/ui](https://ui.shadcn.com/) - Componentes de UI reutilizables y accesibles
 
-## Comenzando 🚀
-
-Estas instrucciones te permitirán obtener una copia del proyecto funcionando en tu entorno local para propósitos de desarrollo y pruebas.
 
 ### Prerrequisitos 📋
 
@@ -76,110 +73,6 @@ src/
     └── Index.tsx     # Página principal que muestra todas las secciones
 ```
 
-## Personalización 🎨
 
-El portafolio está diseñado para ser fácilmente personalizable modificando los archivos JSON en la carpeta `src/data/`.
 
-### Modificar Información Personal
 
-Edita el archivo `src/data/personal.json`:
-
-```json
-{
-  "name": "Tu Nombre",
-  "profession": "Tu Profesión",
-  "shortBio": "Una breve descripción sobre ti",
-  "fullBio": "Una descripción más detallada de tu experiencia y habilidades...",
-  "avatarUrl": "URL de tu foto de perfil"
-}
-```
-
-### Modificar Proyectos
-
-Edita el archivo `src/data/projects.json`:
-
-```json
-[
-  {
-    "id": 1,
-    "name": "Nombre del Proyecto",
-    "description": "Descripción del proyecto",
-    "image": "URL de la imagen del proyecto",
-    "tags": ["React", "Node.js", "MongoDB"],
-    "githubUrl": "URL del repositorio en GitHub",
-    "liveUrl": "URL del proyecto en vivo"
-  }
-  // Añade más proyectos aquí
-]
-```
-
-### Modificar Información de Contacto
-
-Edita el archivo `src/data/contact.json`:
-
-```json
-{
-  "email": "tu.email@ejemplo.com",
-  "socialMedia": [
-    {
-      "name": "LinkedIn",
-      "url": "https://linkedin.com/in/tuusuario",
-      "icon": "linkedin"
-    }
-    // Añade más redes sociales aquí
-  ]
-}
-```
-
-## Despliegue 📦
-
-Para crear una versión de producción y desplegarla:
-
-1. Construye el proyecto:
-
-```bash
-npm run build
-```
-
-2. Los archivos generados estarán en la carpeta `dist/`, que puedes subir a cualquier servicio de hosting estático como:
-   - [Netlify](https://www.netlify.com/)
-   - [Vercel](https://vercel.com/)
-   - [GitHub Pages](https://pages.github.com/)
-   - [Surge](https://surge.sh/)
-
-## Personalizaciones Adicionales
-
-### Cambiar Colores y Estilos
-
-Los estilos principales se controlan a través de Tailwind CSS. Puedes modificar los colores y otros aspectos de diseño editando el archivo `tailwind.config.js`.
-
-### Añadir Nuevas Secciones
-
-Para añadir nuevas secciones al portafolio:
-
-1. Crea un nuevo componente en la carpeta `components/`
-2. Añade los datos necesarios a los archivos JSON existentes o crea uno nuevo
-3. Importa y añade el componente en `pages/Index.tsx`
-
-## Contribuciones 🤝
-
-Las contribuciones son bienvenidas. Para contribuir:
-
-1. Haz un Fork del proyecto
-2. Crea una rama para tu funcionalidad (`git checkout -b feature/amazing-feature`)
-3. Haz commit de tus cambios (`git commit -m 'Add some amazing feature'`)
-4. Empuja la rama (`git push origin feature/amazing-feature`)
-5. Abre un Pull Request
-
-## Licencia 📄
-
-Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo LICENSE para más detalles.
-
-## Autores
-
-- **Brayan Diaz C** - _Trabajo inicial_ - [Brayan Diaz C](https://github.com/brayandiazc)
-
----
-
-⌨️ con ❤️ por [Adalid CL](https://github.com/adalid-cl) 😊
-# portafolio
