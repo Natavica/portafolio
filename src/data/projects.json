@@ -1,29 +1,29 @@
 [
   {
     "id": 1,
-    "name": "E-commerce Platform",
+    "name": "Starwars Hospital",
     "description": "Plataforma de hospital enfocada en el filtrado de especialidades.",
-    "image": "https://images.unsplash.com/photo-1661956602116-aa6865609028?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8ZWNvbW1lcmNlfGVufDB8fDB8fHww",
-    "liveUrl": "https://myecommerce-project.netlify.app",
+    "image": "https://natavica.github.io/m03--e3--json_hospital/assets/images/hospital.jpeg",
+    "liveUrl": "https://natavica.github.io/m03--e3--json_hospital/",
     "githubUrl": "https://github.com/Natavica/m03--e3--json_hospital",
     "tags": ["Html", "Css", "Scss", "Js", "Json"]
   },
   {
     "id": 2,
-    "name": "Task Manager App",
-    "description": "Aplicación de gestión de tareas con funcionalidades de arrastrar y soltar, filtros y alertas.",
-    "image": "https://images.unsplash.com/photo-1504292004442-f285299403fa?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "liveUrl": "https://task-manager-app.vercel.app",
+    "name": "Baleària",
+    "description": "Maquetado de distintas vistas, entre ellas el apartado de reservas.",
+    "image": "https://portalportuario.cl/wp-content/uploads/2019/09/balearia.jpg",
+    "liveUrl": "https://www.balearia.com/es",
     "githubUrl": "https://github.com/janedoe/task-manager",
-    "tags": ["React", "Redux", "Firebase", "TailwindCSS"]
+    "tags": ["Html", "Css", "Js"]
   },
   {
     "id": 3,
-    "name": "Weather Dashboard",
-    "description": "Panel de control del clima que muestra pronósticos actuales y futuros para múltiples ubicaciones.",
-    "image": "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2VhdGhlcnxlbnwwfHwwfHx8MA%3D%3D",
-    "liveUrl": "https://weather-dashboard-app.netlify.app",
+    "name": "Nexxdi",
+    "description": "Maquetado de distintas vistas, entre ellas el home, el login.",
+    "image": "https://www.nexxdiotc.com/assets/icons/pasos-img.svg",
+    "liveUrl": "https://www.nexxdiotc.com/home",
     "githubUrl": "https://github.com/janedoe/weather-dashboard",
-    "tags": ["JavaScript", "OpenWeather API", "Chart.js"]
+    "tags": ["Html", "Css", "Js", "Angular Material"]
   }
 ]
